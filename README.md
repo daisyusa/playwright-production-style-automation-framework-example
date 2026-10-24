@@ -1,4 +1,5 @@
 # Playwright UI Automation Framework
+[![Playwright Tests](https://github.com/daisyusa/playwright-production-style-automation-framework-example/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/daisyusa/playwright-production-style-automation-framework-example/actions/workflows/playwright.yml)
 
 **Project Strategy & Evolution**
 Built as a production-style framework to demonstrate modern Playwright/TS automation practices. Focused on stabilizing mission-critical smoke tests for enterprise analytics platforms. It demonstrates a transition from initial core-flow validation to a fully scalable architecture, utilizing **Page Object Model (POM)** and data-driven patterns to handle complex web behaviors. The primary objective is to prove **CI/CD readiness** and maintainable automation design, ensuring high-confidence releases with minimal manual intervention.
