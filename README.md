@@ -1,4 +1,5 @@
 # Playwright UI Automation Framework
+
 [![Playwright Tests](https://github.com/daisyusa/playwright-production-style-automation-framework-example/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/daisyusa/playwright-production-style-automation-framework-example/actions/workflows/playwright.yml)
 
 **Project Strategy & Evolution**
@@ -139,6 +140,10 @@ test("@regression Login with invalid credentials", async () => {
   await loginPage.verifyFlashMessage("Your username is invalid!");
 });
 ```
+
+### Trigger CI after PR
+
+This CI will run @smoke test after making a PR, the @smoke tests includes auth which need secrets key, you need to add two secrets keys first in your github repo.
 
 ## Purpose of This Repository
 
